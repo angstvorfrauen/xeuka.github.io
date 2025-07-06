@@ -1,9 +1,9 @@
-Origin: Xeuka
-Label: Xeuka's Repo
+Origin: opa334's Beta Repo
+Label: opa334's Beta Repo
 Suite: stable
 Version: 1.0
-Codename: ios
+Codename: opa334beta
 Architectures: iphoneos-arm
 Components: main
-Description: Test Sileo Repo (no tweaks)
-file://CydiaIcon.png
+Description: opa334's Cydia Beta Repository
+Icon: file://CydiaIcon.png
