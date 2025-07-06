@@ -9,7 +9,7 @@ Size: 407912
 MD5sum: 4c8d7a45c65cf71f8219574812a02449
 SHA1: 93c7dc25560e42db0394af3f13aef67caff76c90
 SHA256: b5696a4fbae2fe547f1dbfd1df11fc825845309e6bd5ec002718c0967046dfb8
-Section: Tweaks
+Section: Palera1n
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
@@ -25,7 +25,7 @@ Size: 408250
 MD5sum: 6fc7eab1a2f8d6f1a65d9073ee41fc1a
 SHA1: 05db377edf761765f3d08936c13b9ee70ec84290
 SHA256: 1c46f770b19cc3b01e2dc54d31610b813125850df4a4529906b5924f0297056b
-Section: Tweaks
+Section: Palera1n
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
@@ -40,7 +40,7 @@ Size: 1445626
 MD5sum: 7e834a00e0d68568d39d9a142cc838ff
 SHA1: 0f9d7b2efcaa723e0d20ba4804fef02f46ca425c
 SHA256: 1e94534463a7066e25fb2a2a81c90b9e071c91a482677c5716d41dbe7c03c544
-Section: System
+Section: Plugins
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
@@ -56,7 +56,7 @@ Size: 1446130
 MD5sum: 78e5915754b1068b212890ffe907dfd0
 SHA1: 6d0a4904f961407b2fbc7153bd9fae3dda27b8db
 SHA256: 82370ccb97937f4d7b4408f0c918d9136bad5a2c40f11d1aeb3337dda9f06b6f
-Section: System
+Section: Plugins
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
