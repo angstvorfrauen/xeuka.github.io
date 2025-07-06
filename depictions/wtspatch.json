@@ -2,7 +2,7 @@
     "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#ff0000",
-    "headerImage": "https://zeex-xd.github.io/images/guts.png",
+    "headerImage": "https://raw.githubusercontent.com/angstvorfrauen/angstvorfrauen.github.io/refs/heads/main/images/guts.jpg",
     "tabs": [
         {
             "tabname": "Details",
