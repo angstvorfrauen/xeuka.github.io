@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "class": "DepictionTabView",
-    "tintColor": "#000000",
+    "tintColor": "#ff0000",
     "headerImage": "https://zeex-xd.github.io/images/guts.png",
     "tabs": [
         {
