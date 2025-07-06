@@ -1,16 +1,15 @@
 Package: Flex3beta
 Version: 1:3~Beta98
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: John Coates
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3beta_13~Beta98_iphoneos-arm64.deb
-Size: 25821614
-MD5sum: dd3f25dd3ae088658bafdf682565af17
-SHA1: e26342df8999c0baca0194799f57dbabd660d346
-SHA256: 94a29b25d4174a3862a458af1c4bb3206c1bc78ae9e12ba440765b8de1a1b4f6
+Filename: ./debs/Flex3_arm64.deb
+Size: 10051964
+MD5sum: c7873e112e5238aa860611ac6bd22447
+SHA1: 5534bf6008c3cee8030a28f77a998f9c6d7aee6a
+SHA256: 1ba7fac6f88eacd79f87c18ef1ead00576e232d660cdcd5b266c2115ed510f5a
 Section: Tweaks
 Description: Flex 3 beta 98
 Author: John Coates
@@ -19,15 +18,15 @@ Recommended: com.rpetrich.rocketbootstrap
 
 Package: com.eevee.spotify
 Version: 6.0.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/com.eevee.spotify_6.0.2_iphoneos-arm.deb
-Size: 407912
-MD5sum: 4c8d7a45c65cf71f8219574812a02449
-SHA1: 93c7dc25560e42db0394af3f13aef67caff76c90
-SHA256: b5696a4fbae2fe547f1dbfd1df11fc825845309e6bd5ec002718c0967046dfb8
+Filename: ./debs/EeveeSpotify_arm64.deb
+Size: 408250
+MD5sum: 6fc7eab1a2f8d6f1a65d9073ee41fc1a
+SHA1: 05db377edf761765f3d08936c13b9ee70ec84290
+SHA256: 1c46f770b19cc3b01e2dc54d31610b813125850df4a4529906b5924f0297056b
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -35,15 +34,15 @@ Name: EeveeSpotify
 
 Package: com.eevee.spotify
 Version: 6.0.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Eevee
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/com.eevee.spotify_6.0.2_iphoneos-arm64.deb
-Size: 408250
-MD5sum: 6fc7eab1a2f8d6f1a65d9073ee41fc1a
-SHA1: 05db377edf761765f3d08936c13b9ee70ec84290
-SHA256: 1c46f770b19cc3b01e2dc54d31610b813125850df4a4529906b5924f0297056b
+Filename: ./debs/EeveeSpotify_arm.deb
+Size: 407912
+MD5sum: 4c8d7a45c65cf71f8219574812a02449
+SHA1: 93c7dc25560e42db0394af3f13aef67caff76c90
+SHA256: b5696a4fbae2fe547f1dbfd1df11fc825845309e6bd5ec002718c0967046dfb8
 Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
@@ -54,7 +53,7 @@ Version: 1.29.0
 Architecture: iphoneos-arm
 Maintainer: eevee
 Installed-Size: 10116
-Filename: ./debs/org.swift.protobuf.swiftprotobuf_1.29.0_iphoneos-arm.deb
+Filename: ./debs/SwiftProtobuf_arm.deb
 Size: 1445626
 MD5sum: 7e834a00e0d68568d39d9a142cc838ff
 SHA1: 0f9d7b2efcaa723e0d20ba4804fef02f46ca425c
@@ -70,7 +69,7 @@ Version: 1.29.0
 Architecture: iphoneos-arm64
 Maintainer: eevee
 Installed-Size: 10116
-Filename: ./debs/org.swift.protobuf.swiftprotobuf_1.29.0_iphoneos-arm64.deb
+Filename: ./debs/SwiftProtobuf_arm64.deb
 Size: 1446130
 MD5sum: 78e5915754b1068b212890ffe907dfd0
 SHA1: 6d0a4904f961407b2fbc7153bd9fae3dda27b8db
@@ -80,4 +79,21 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
 Name: SwiftProtobuf
+
+Package: zeex.wtspatch
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Zeex
+Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/WatusiPatch_arm64.deb
+Size: 4354
+MD5sum: d1b626332e2113fc87834c2b87f8f5ac
+SHA1: 25cae1ec6c40a72d290cb4a264ad64590848d902
+SHA256: e4a9c8c0e7e5306defb479676ecc1c5c1101de10526ae285f54f889176750ba0
+Section: Tweaks
+Description: Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business
+Author: ijm
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/wtspatch.json&name=wtspatch&dev=Zeex
+Name: wtspatch
+Sileodepiction: https://zeex-xd.github.io/depictions/wtspatch.json
 
