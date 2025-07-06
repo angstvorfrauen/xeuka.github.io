@@ -6,4 +6,4 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Test Sileo Repo (no tweaks)
-Icon: images/icon.png
+file://CydiaIcon.png
