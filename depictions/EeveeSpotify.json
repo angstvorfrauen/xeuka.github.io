@@ -17,7 +17,7 @@
         
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business"
+          "markdown": "- Free Spotify Premium"
         },
         
         {
@@ -29,7 +29,7 @@
         
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- No ads in watusi"
+          "markdown": "- No Ads & Infinte Skip Songs"
         },
         
         {
@@ -45,17 +45,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "Developers",
-          "text": "ijm"
+          "text": "Xeuka"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.1"
+          "text": "6.0.2"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iOS 12.x-16.x"
+          "text": "iOS 14.0-16.7.11"
         },
         {
           "class": "DepictionSpacerView",
@@ -66,8 +66,8 @@
           "views": [
             {
               "class": "DepictionTableButtonView",
-              "title": "iOS Jailbreak Community",
-              "action": "https://chat.whatsapp.com/EXL1Lhh2I0THo95tQv7Izg",
+              "title": "Telegram Channel",
+              "action": "https://t.me/RocketClient2",
               "openExternal": true
             }
           ]
