@@ -4,12 +4,12 @@ Architecture: iphoneos-arm
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 570902
-MD5sum: d67b6468619b9b1020b3ffe4289e4068
-SHA1: a8479ba6b30ab3879c28c8cbede88edd8a3342ad
-SHA256: fbdb627af986a4374cff763d353099a6c09bfb1b16f26a2693a9299a5fef571b
+Size: 407910
+MD5sum: 36ccb6594f45bea9e814cf3883a59d63
+SHA1: c839ec9302ef5566f865b7dea389ae0ca2f1e2a0
+SHA256: 2b6e59b3294e8dfcf1dbedaf4ca6779cd3a17f89c396c7bbd7feae433d681204
 Section: Tweaks
-Description: lllk
+Description: uu
 Author: Eevee
 Name: EeveeSpotify
 
