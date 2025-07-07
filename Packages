@@ -23,16 +23,14 @@ Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm64.deb
-Size: 571284
-MD5sum: ab2d2f638b40740f8b7193068585f2f8
-SHA1: 18112b743b705cddeb9c6399864bc427aec0e852
-SHA256: 747d7206be05edea592a6d64aedcd3decb3f16f289b575ffe2c2762a7aac080e
-Section: Tweaks
+Size: 571192
+MD5sum: cc2391b36d49c08b979c45098326ee75
+SHA1: d12b721b98fadd274b71193e665fe631a58c98a9
+SHA256: 326203ceee4dd224b774f561e0d2bc3677e74c803d7fe37d468c9fb74edc7f80
+Section: iPhoneOS-ARM64
 Description: Free Spotify
 Author: t.me/RocketClient2
-Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/wtspatch.json&name=wtspatch&dev=angstvorfrauen
 Name: EeveeSpotify
-Sileodepiction: https://angstvorfrauen.github.io/depictions/wtspatch.json
 
 Package: com.eevee.spotify
 Version: 6.0.2
@@ -41,16 +39,14 @@ Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 571022
-MD5sum: 78c0afe921fb50aa42e275925135884c
-SHA1: 5ac7ad01e0f044d7adfcd8c0daf2e254d2980999
-SHA256: e3720396917852bc5facb9679c1b4d90a13938cec6cee720201daecd0abb5b69
-Section: Tweaks
+Size: 570930
+MD5sum: d3b9dc69b1b0527dd836ff154735f98f
+SHA1: 5e7988b029c2a8f366a93ddaabdd94f367c13ed3
+SHA256: 06a6f6da25b3d4db0b1dc7af93da2eed796fdcfdee66d4c4cd8ce58fc92bede9
+Section: iPhoneOS-ARM
 Description: Free Spotify
 Author: t.me/RocketClient2
-Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/wtspatch.json&name=wtspatch&dev=angstvorfrauen
 Name: EeveeSpotify
-Sileodepiction: https://angstvorfrauen.github.io/depictions/wtspatch.json
 
 Package: org.swift.protobuf.swiftprotobuf
 Version: 1.29.0
