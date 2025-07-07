@@ -1,18 +1,21 @@
 Package: com.eevee.spotify
 Version: 6.0.2
 Architecture: iphoneos-arm
-Maintainer: Eevee
+Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 407912
-MD5sum: 4c8d7a45c65cf71f8219574812a02449
-SHA1: 93c7dc25560e42db0394af3f13aef67caff76c90
-SHA256: b5696a4fbae2fe547f1dbfd1df11fc825845309e6bd5ec002718c0967046dfb8
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
+Size: 408284
+MD5sum: e7646b449c97b96a93c3a2972c437494
+SHA1: 058ed91a62b3f36db43de0aa52eed4f2f922e98a
+SHA256: 2d43419c0f35557326fccd1bf6456254cb69ec36ca1e8b923aaad569d6d8ff82
+Section: iPhoneOS-ARM
+Description: Free Spotify
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/EeveeSpotify.json&name=EeveeSpotify&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
 Name: EeveeSpotify
+Sileodepiction: https://angstvorfrauen.github.io/depictions/EeveeSpotify.json
 
 Package: org.swift.protobuf.swiftprotobuf
 Version: 1.29.0
