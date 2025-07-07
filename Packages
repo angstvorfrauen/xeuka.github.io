@@ -4,14 +4,17 @@ Architecture: iphoneos-arm
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 407910
-MD5sum: 36ccb6594f45bea9e814cf3883a59d63
-SHA1: c839ec9302ef5566f865b7dea389ae0ca2f1e2a0
-SHA256: 2b6e59b3294e8dfcf1dbedaf4ca6779cd3a17f89c396c7bbd7feae433d681204
-Section: Tweaks
-Description: uu
-Author: Eevee
+Size: 408052
+MD5sum: 702cbe59669ca0ba9632a2b7b5023a8b
+SHA1: 138a24ea192e04f214307ab680225b61fd0df023
+SHA256: 498354f89e8ac0505e51a005f2a78011ddc188e52f878530842571e3db02d50b
+Section: iPhoneOS-ARM
+Description: Free Spotify
+Author: t.me/RocketClient2
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://github.com/angstvorfrauen/angstvorfrauen.github.io/depictions/EeveeSpotify.json&name=eveespot&dev=Xeuk
+Icon: https://github.com/angstvorfrauen/angstvorfrauen.github.io/icons/EeveeSpotify.png
 Name: EeveeSpotify
+Sileodepiction: https://github.com/angstvorfrauen/angstvorfrauen.github.io/depictions/EeveeSpotify.json
 
 Package: com.eevee.spotify
 Version: 6.0.2
