@@ -1,99 +1,63 @@
-Package: Flex3beta
-Version: 1:3~Beta98
-Architecture: iphoneos-arm64
-Maintainer: John Coates
-Depends: firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3_arm64.deb
-Size: 10051964
-MD5sum: c7873e112e5238aa860611ac6bd22447
-SHA1: 5534bf6008c3cee8030a28f77a998f9c6d7aee6a
-SHA256: 1ba7fac6f88eacd79f87c18ef1ead00576e232d660cdcd5b266c2115ed510f5a
-Section: Tweaks
-Description: Flex 3 beta 98
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
-Package: com.eevee.spotify
-Version: 6.0.2
-Architecture: iphoneos-arm64
-Maintainer: t.me/RocketClient2
-Installed-Size: 1604
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/EeveeSpotify_arm64.deb
-Size: 571192
-MD5sum: cc2391b36d49c08b979c45098326ee75
-SHA1: d12b721b98fadd274b71193e665fe631a58c98a9
-SHA256: 326203ceee4dd224b774f561e0d2bc3677e74c803d7fe37d468c9fb74edc7f80
-Section: iPhoneOS-ARM64
-Description: Free Spotify
-Author: t.me/RocketClient2
-Name: EeveeSpotify
-
 Package: com.eevee.spotify
 Version: 6.0.2
 Architecture: iphoneos-arm
-Maintainer: t.me/RocketClient2
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 570930
-MD5sum: d3b9dc69b1b0527dd836ff154735f98f
-SHA1: 5e7988b029c2a8f366a93ddaabdd94f367c13ed3
-SHA256: 06a6f6da25b3d4db0b1dc7af93da2eed796fdcfdee66d4c4cd8ce58fc92bede9
-Section: iPhoneOS-ARM
-Description: Free Spotify
-Author: t.me/RocketClient2
+Size: 570902
+MD5sum: d67b6468619b9b1020b3ffe4289e4068
+SHA1: a8479ba6b30ab3879c28c8cbede88edd8a3342ad
+SHA256: fbdb627af986a4374cff763d353099a6c09bfb1b16f26a2693a9299a5fef571b
+Section: Tweaks
+Description: lllk
+Author: Eevee
+Name: EeveeSpotify
+
+Package: com.eevee.spotify
+Version: 6.0.2
+Architecture: iphoneos-arm64
+Maintainer: Eevee
+Installed-Size: 1604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Filename: ./debs/EeveeSpotify_arm64.deb
+Size: 571176
+MD5sum: 410aec005439235cfa8f391db6728b5e
+SHA1: 964a21d61e3c7a27134ba54ec7689a165adc872c
+SHA256: 917ca7ec07046152233853baf4b41abacb8529aa92341954fc2783ddaa3fd996
+Section: Tweaks
+Description: lllk
+Author: Eevee
 Name: EeveeSpotify
 
 Package: org.swift.protobuf.swiftprotobuf
 Version: 1.29.0
 Architecture: iphoneos-arm
-Maintainer: xeuka
+Maintainer: eevee
 Installed-Size: 10116
 Filename: ./debs/SwiftProtobuf_arm.deb
-Size: 3093664
-MD5sum: b250054e9a15600247a8436981e0d5f9
-SHA1: 59a155f2ad98714b6bb21d3845dad0789dcf7825
-SHA256: 323795caf91bb47457d4747c40a55a53eaba1ba6c7e6ac1b7ea5c515455a5a7d
+Size: 1445626
+MD5sum: 7e834a00e0d68568d39d9a142cc838ff
+SHA1: 0f9d7b2efcaa723e0d20ba4804fef02f46ca425c
+SHA256: 1e94534463a7066e25fb2a2a81c90b9e071c91a482677c5716d41dbe7c03c544
 Section: System
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
-Author: xeuka
+Author: eevee
 Name: SwiftProtobuf
 
 Package: org.swift.protobuf.swiftprotobuf
 Version: 1.29.0
 Architecture: iphoneos-arm64
-Maintainer: xeuka
+Maintainer: eevee
 Installed-Size: 10116
 Filename: ./debs/SwiftProtobuf_arm64.deb
-Size: 3093766
-MD5sum: d3a97a5662aa4fa75394f10334a548ce
-SHA1: c9524cf8c55e545485a50ee913458668ebf11fb7
-SHA256: 1fae4f5fe286bf7eddd4dff741e783d2caef8e479d87197d919af135a17ad7fa
+Size: 1446130
+MD5sum: 78e5915754b1068b212890ffe907dfd0
+SHA1: 6d0a4904f961407b2fbc7153bd9fae3dda27b8db
+SHA256: 82370ccb97937f4d7b4408f0c918d9136bad5a2c40f11d1aeb3337dda9f06b6f
 Section: System
 Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
-Author: xeuka
+Author: eevee
 Name: SwiftProtobuf
-
-Package: zeex.wtspatch
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Zeex
-Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
-Filename: ./debs/WatusiPatch_arm64.deb
-Size: 4354
-MD5sum: d1b626332e2113fc87834c2b87f8f5ac
-SHA1: 25cae1ec6c40a72d290cb4a264ad64590848d902
-SHA256: e4a9c8c0e7e5306defb479676ecc1c5c1101de10526ae285f54f889176750ba0
-Section: Tweaks
-Description: Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business
-Author: ijm
-Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/wtspatch.json&name=wtspatch&dev=Zeex
-Name: wtspatch
-Sileodepiction: https://zeex-xd.github.io/depictions/wtspatch.json
 
