@@ -1,17 +1,17 @@
 Package: com.eevee.spotify
 Version: 6.0.2
 Architecture: iphoneos-arm
-Maintainer: t.me/RocketClient2
+Maintainer: xeuka
 Installed-Size: 1604
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./debs/EeveeSpotify_arm.deb
-Size: 407940
-MD5sum: 75ef40cad9f6df9b1e35039fdfd9eda4
-SHA1: ab2c5d8717beece8647ff07e193235b7edf8f934
-SHA256: 314bea1d003598fdb159143cf557301b5139fece7ae5ce028bcaebabb463e45d
-Section: iPhoneOS-ARM
+Size: 407928
+MD5sum: bf80655bf1b8a0aea2ad6872a06fc0d4
+SHA1: 54205d1f5b53806d0df5f04a2d7b22dffff7fb31
+SHA256: 981d38d7050223c5c6ef1368dd5d6344ad3d9fc28b070fb213867faa90d38c05
+Section: Tweaks
 Description: Free Spotify
-Author: t.me/RocketClient2
+Author: xeuka
 Name: EeveeSpotify
 
 Package: org.swift.protobuf.swiftprotobuf
