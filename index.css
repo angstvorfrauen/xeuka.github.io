@@ -1,0 +1,156 @@
+/*-------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*-------------------------------*/
+body {
+  background: #0a0a0a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+/*-------------------------------*/
+.navbar {
+  background-color: #0F0F0F;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+/*-------------------------------*/
+.brand {
+  color: #FF0000;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px red;
+}
+/*-------------------------------*/
+.settings-icon {
+  align-items: center;
+  border-radius: 12px;
+  color: #3b82f6;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+/*-------------------------------*/
+.settings-icon:hover {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #2563eb;
+}
+/*-------------------------------*/
+.profile-img {
+  animation: iconBounce 5s ease infinite;
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 150px;
+}
+/*-------------------------------*/
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+/*-------------------------------*/
+.links a {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/*-------------------------------*/
+.links a:hover {
+  transform: scale(1.2);
+}
+/*-------------------------------*/
+.links a::after {
+  background-color: white;
+  bottom: -10px;
+  content: '';
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+  width: 0;
+}
+/*-------------------------------*/
+.links a:hover::after {
+  width: 100%;
+}
+/*-------------------------------*/
+.links a.instagram:hover,
+.links a.sileo:hover {
+  color: #e1306c;
+}
+/*-------------------------------*/
+.links a.youtube:hover {
+  color: #ff0000;
+}
+/*-------------------------------*/
+.links a.whatsapp:hover {
+  color: #25d366;
+}
+/*-------------------------------*/
+.links a.pinterest:hover {
+  color: #bd081c;
+}
+
+.links a.twitter:hover {
+  color: #1da1f2;
+}
+/*-------------------------------*/
+.links a.telegram:hover {
+  color: #0088cc;
+}
+/*-------------------------------*/
+.links a p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+/*-------------------------------*/
+.links a:hover p {
+  color: #ffffffcc;
+}
+/*-------------------------------*/
+.links a i,
+.profile-img {
+  animation: iconBounce 5s ease infinite;
+}
+/*-------------------------------*/
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/*-------------------------------*/
