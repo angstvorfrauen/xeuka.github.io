@@ -1,19 +1,22 @@
 Package: Flex3beta
 Version: 1:3~Beta75
 Architecture: iphoneos-arm
-Maintainer: DXcool223
+Maintainer: t.me/RocketClient2
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3Beta_arm.deb
-Size: 10091260
-MD5sum: d941732349ae3128f03ab4fa28b2710f
-SHA1: 6eca08e5aa0e06f12df33399570c4feaf99dbaaa
-SHA256: 2d46a8d60439ad5cf852c1c84c027270e110c8043d581cb8065d25e7398906c7
-Section: Tweaks
-Description: Flex 3 for Palera1n rootful by DXcool223
-Author: John Coates
-Name: Flex 3 Beta Palera1n Rootful
+Size: 10088316
+MD5sum: 7274d85524dc924960d94988fcb67821
+SHA1: 18177692780c5e5d63e6b9182e2baf8cae0f68a1
+SHA256: 3befcd3ce1c66f6e5d8434a6b84243863fb8a3b04ac236e10f665f322fd1e933
+Section: iPhoneOS-ARM
+ https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/Flex3Beta.json&name=Flex3Beta&dev=xeuka
+ Sileodepiction: https://angstvorfrauen.github.io/depictions/Flex3Beta.json
+ Icon: https://angstvorfrauen.github.io/icons/Flex3Beta.png
+Description: Flex 3 Beta
+Author: t.me/RocketClient2
+Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
 Package: com.afnanahmad.chromahomebarx
