@@ -6,18 +6,18 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3Beta_arm.deb
-Size: 10088316
-MD5sum: 7274d85524dc924960d94988fcb67821
-SHA1: 18177692780c5e5d63e6b9182e2baf8cae0f68a1
-SHA256: 3befcd3ce1c66f6e5d8434a6b84243863fb8a3b04ac236e10f665f322fd1e933
+Size: 10091580
+MD5sum: c7b8ebf9901114d30d583ecaf90c466c
+SHA1: 26b402d8e76a36f87c4a317fa1d3184eefa79dc8
+SHA256: d6b9863ba76cd66d0bad43f73805417fab7155e451f7e31fa5a33bcbd799f86c
 Section: iPhoneOS-ARM
- https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/Flex3Beta.json&name=Flex3Beta&dev=xeuka
- Sileodepiction: https://angstvorfrauen.github.io/depictions/Flex3Beta.json
- Icon: https://angstvorfrauen.github.io/icons/Flex3Beta.png
 Description: Flex 3 Beta
 Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/Flex3Beta.json&name=Flex3Beta&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/Flex3Beta.png
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
+Sileodepiction: https://angstvorfrauen.github.io/depictions/Flex3Beta.json
 
 Package: com.afnanahmad.chromahomebarx
 Version: 0.4
