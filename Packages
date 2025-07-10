@@ -158,20 +158,3 @@ Dev: pixelfiredev
 Name: libcolorpicker
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: zeex.wtspatch
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: Zeex
-Depends: mobilesubstrate
-Filename: ./debs/wtspatch_arm.deb
-Size: 224780
-MD5sum: d7623cd3fbc76b82570f99315c18b40f
-SHA1: cae17e0abb362de70c9c483f33e67d2638cb32f4
-SHA256: f2fd537bf42c81c5bd3c046dd9aa9952bd931adffec13f4f9c9037107426108c
-Section: Tweaks
-Description: Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business
-Author: ijm
-Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/wtspatch.json&name=wtspatch&dev=Zeex
-Name: wtspatch
-Sileodepiction: https://zeex-xd.github.io/depictions/wtspatch.json
-
