@@ -113,6 +113,26 @@ Icon: https://angstvorfrauen.github.io/icons/BatteryBuddy.png
 Name: BatteryBuddy
 Sileodepiction: https://angstvorfrauen.github.io/depictions/BatteryBuddy.json
 
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: t.me/RocketClient2
+Installed-Size: 877
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/Atria_arm.deb
+Size: 241488
+MD5sum: ecf1d643af0abb12025db5089278fa91
+SHA1: 92f19f8bfce83c2259b7f1351ca490057b5d6145
+SHA256: 59fbd71c23d3e22f3b344df7e078eaecd798d51892fd01d79c158195523e22a6
+Section: iPhoneOS-ARM
+Description: A clean Homescreen
+Author: t.me/RocketClient2
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/Atria.json&name=Atria&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/Atria.png
+Name: Atria
+Sileodepiction: https://angstvorfrauen.github.io/depictions/Atria.json
+
 Package: org.swift.protobuf.swiftprotobuf
 Version: 1.29.0
 Architecture: iphoneos-arm
