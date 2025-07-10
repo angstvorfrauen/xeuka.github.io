@@ -19,25 +19,20 @@ Recommended: com.rpetrich.rocketbootstrap
 Package: com.afnanahmad.chromahomebarx
 Version: 0.4
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 642
+Maintainer: t.me/RocketClient2
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: ./debs/ChromaHomeBarX_arm.deb
-Size: 100680
-MD5sum: e363693b8b90407113a8c9738205985f
-SHA1: 453f96d587b020e304fa558907a245619cdadd63
-SHA256: 95a6e42908b17a61b8d4ee16024b68953fe0c248c5cfccbce2a31e539e016036
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
-Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
-Tag: purpose::extension, compatible::ios11, compatible::ios12
-Author: Afnan Ahmad <afnanahmaddd@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
-Dev: afnanahmad
-Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
+Size: 100736
+MD5sum: f0db10c0832f4d5011084eed5f328fb2
+SHA1: 700536e64a2db8fac6116d8d1c2d5afa3154db2e
+SHA256: 058078fccee6345a736a3b0fbdd73ecf20b70a9b1089e0246c1fdecd511f5c08
+Section: iPhoneOS-ARM
+Description: HomeBar in RGB
+Author: t.me/RocketClient
+Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json&name=ChromaHomeBarX&dev=xeuka
+Icon: https://angstvorfrauen.github.io/icons/ChromaHomeBarX.png
 Name: ChromaHomeBarX
-Sponsor: thebigboss.org <http://thebigboss.org>
+Sileodepiction: https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json
 
 Package: com.eevee.spotify
 Version: 6.0.2
