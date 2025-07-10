@@ -1,3 +1,44 @@
+Package: Flex3beta
+Version: 1:3~Beta75
+Architecture: iphoneos-arm
+Maintainer: DXcool223
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3Beta_arm.deb
+Size: 10091260
+MD5sum: d941732349ae3128f03ab4fa28b2710f
+SHA1: 6eca08e5aa0e06f12df33399570c4feaf99dbaaa
+SHA256: 2d46a8d60439ad5cf852c1c84c027270e110c8043d581cb8065d25e7398906c7
+Section: Tweaks
+Description: Flex 3 for Palera1n rootful by DXcool223
+Author: John Coates
+Name: Flex 3 Beta Palera1n Rootful
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: com.afnanahmad.chromahomebarx
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 642
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/ChromaHomeBarX_arm.deb
+Size: 100680
+MD5sum: e363693b8b90407113a8c9738205985f
+SHA1: 453f96d587b020e304fa558907a245619cdadd63
+SHA256: 95a6e42908b17a61b8d4ee16024b68953fe0c248c5cfccbce2a31e539e016036
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Dev: afnanahmad
+Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
+Name: ChromaHomeBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.eevee.spotify
 Version: 6.0.2
 Architecture: iphoneos-arm
@@ -16,6 +57,46 @@ Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.
 Icon: https://angstvorfrauen.github.io/icons/EeveeSpotify.png
 Name: EeveeSpotify
 Sileodepiction: https://angstvorfrauen.github.io/depictions/EeveeSpotify.json
+
+Package: com.nahtedetihw.gesturesxv
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: Ethan Whited
+Installed-Size: 2756
+Depends: mobilesubstrate
+Filename: ./debs/Gesturesxv_arm.deb
+Size: 2161206
+MD5sum: 813e709d8e873727bb076b9043102945
+SHA1: 65f4f347c60112879cb649f4e089236e8fda67a9
+SHA256: 0be263c7f6466318054c0b12b57eb623e4b958d2167f703c75071f28807a6c8f
+Section: Tweaks
+Description: iPhone X gestures brought to older iPhones compatible with iOS 15
+Author: Ethan Whited
+Name: GesturesXV
+
+Package: com.tigisoftware.filza
+Version: 4.0.1-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 31815
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./debs/Filza_arm.deb
+Size: 10215790
+MD5sum: 60322f74b0e669a35c04e3d864241e1e
+SHA1: 5f55e3c714ee9e81bad34bebb279201490014bd6
+SHA256: 4482445297cce926faede628d911bfc99ec0de5fafcea94e569dc59f6c169341
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Tag: purpose::uikit
+Author: TIGI Software <satashi2009@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Dev: satashi2009
+Icon: file:///Applications/Filza.app/AppIcon57x57.png
+Name: Filza File Manager
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
@@ -52,4 +133,45 @@ Description: Plugin and runtime library for using protobuf with Swift
 Tag: role::developer
 Author: eevee
 Name: SwiftProtobuf
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 629
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/LibColorpicker_arm.deb
+Size: 110620
+MD5sum: 76ac3303a769a551ba58a83855da19f5
+SHA1: c3aa95d2302ae22fac6344d131c58d6beecbe9b7
+SHA256: 5f3a37fd6b6e65da32fc8bcfedb74f13ba7ac5876b20968f04ea66fd68d12e6b
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Description: color picker library for developers
+Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, cydia::obsolete
+Author: PixelFire <pixelfiredev@helpful.io>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Dev: pixelfiredev
+Name: libcolorpicker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: zeex.wtspatch
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Zeex
+Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/wtspatch_arm.deb
+Size: 4354
+MD5sum: d1b626332e2113fc87834c2b87f8f5ac
+SHA1: 25cae1ec6c40a72d290cb4a264ad64590848d902
+SHA256: e4a9c8c0e7e5306defb479676ecc1c5c1101de10526ae285f54f889176750ba0
+Section: Tweaks
+Description: Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business
+Author: ijm
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/wtspatch.json&name=wtspatch&dev=Zeex
+Name: wtspatch
+Sileodepiction: https://zeex-xd.github.io/depictions/wtspatch.json
 
