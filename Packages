@@ -22,13 +22,13 @@ Architecture: iphoneos-arm
 Maintainer: t.me/RocketClient2
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: ./debs/ChromaHomeBarX_arm.deb
-Size: 100736
-MD5sum: f0db10c0832f4d5011084eed5f328fb2
-SHA1: 700536e64a2db8fac6116d8d1c2d5afa3154db2e
-SHA256: 058078fccee6345a736a3b0fbdd73ecf20b70a9b1089e0246c1fdecd511f5c08
+Size: 100676
+MD5sum: 4b898ac6455e9e3e87b78a56dff26086
+SHA1: 86f96ec1ffc06cdd714b4846ee0831742b01d1c0
+SHA256: 37772c276abeda94b381fd14a05070be29c645d540ff3fd87bfcd6cedb460a9d
 Section: iPhoneOS-ARM
 Description: HomeBar in RGB
-Author: t.me/RocketClient
+Author: t.me/RocketClient2
 Https: //pinpal.github.io/Sileo-Depiction-WebViews/?json=https://angstvorfrauen.github.io/depictions/ChromaHomeBarX.json&name=ChromaHomeBarX&dev=xeuka
 Icon: https://angstvorfrauen.github.io/icons/ChromaHomeBarX.png
 Name: ChromaHomeBarX
